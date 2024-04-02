@@ -43,6 +43,8 @@ func LocateChrome() string {
 			os.Getenv("LocalAppData") + "/Chromium/Application/chrome.exe",
 			os.Getenv("ProgramFiles") + "/Chromium/Application/chrome.exe",
 			os.Getenv("ProgramFiles(x86)") + "/Chromium/Application/chrome.exe",
+			os.Getenv("ProgramFiles") + "/CocCoc/Browser/Application/browser.exe",
+			os.Getenv("ProgramFiles(x86)") + "/CocCoc/Browser/Application/browser.exe",
 			os.Getenv("ProgramFiles(x86)") + "/Microsoft/Edge/Application/msedge.exe",
 			os.Getenv("ProgramFiles") + "/Microsoft/Edge/Application/msedge.exe",
 		}
