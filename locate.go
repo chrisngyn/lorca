@@ -34,6 +34,7 @@ func LocateChrome() string {
 			"/usr/bin/google-chrome",
 			"/usr/bin/chromium",
 			"/usr/bin/chromium-browser",
+			"/Applications/Thorium.app/Contents/MacOS/Thorium",
 		}
 	case "windows":
 		paths = []string{
